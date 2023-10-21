@@ -33,7 +33,6 @@ class Student:
         return (f"I'm student. My name is {self.name} "
                 f"and I'm {self.age} years old.")
 
-
 nick = Student(15, "Nick",200)
 kate = Student(16, "Kate", 140)
 print(nick)
